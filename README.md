@@ -22,6 +22,8 @@ Simple Category Subcategory with Redux Saga
 * index.js
 * package.json
 
+***
+
 ### index.js
 ```sh
 import React from "react";
@@ -315,3 +317,12 @@ export default function* rootSaga() {
   yield takeLatest("FETCH_LINKS", fetchLinks);
 }
 ``` 
+
+### /utils/index.js
+
+```sh
+export const emptyFunction = () => {};
+```
+
+### Demo 
+https://codesandbox.io/s/8xkmpm6k5l
